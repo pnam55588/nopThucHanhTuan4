@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/body.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper{
+    height: 800px;
+    width: 1089px;
+    background-color: antiquewhite;
+}
+
+nav{
+    height: 50px;
+    background-color:rgb(119, 98, 70);
+}
+
+.menu{
+    list-style-type: none;
+}
+.menu li{
+    float: left;
+    line-height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: azure;
+}
+.menu li:hover a{
+    color: aqua;
+}
+
+.submenu{
+    display: none;
+    list-style-type: none;
+}
+.submenu li{
+    background-color: rgb(15, 11, 11);
+}
+
+.submenu li:hover{
+    background-color: bisque;
+}
+
+.submenu li:hover a{
+    color:blue;
+}
+
+.menu li:hover .submenu{
+    display: block  !important;
+}
+
+nav span{
+    line-height: 50px !important;
+}
+nav .emailLabel{
+    color: burlywood;
+    text-shadow: 5px 5px 5px black;
+}
+
+nav .emailInput{
+    height: 30px;
+    margin-right: 5px;
+}
+
+nav .emailSubmit{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+nav .emailSubmit:hover{
+    height: 40px;
+    width: 40px;
+}
+
+header{
+    height: 150px;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header h1{
+    line-height: 150px;
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+
+.content{
+    height: 400px;
+    background-color: aqua;
+}
+
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: cadetblue;
+    float: left;
+}
+section{
+    width: 70%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+    position: relative;
+}
+
+.section-item{
+    width: 80%;
+    height: 80%;
+    background-color: bisque;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+
+footer{
+    height: 100px;
+    background-color: rgb(80, 35, 138);
+}

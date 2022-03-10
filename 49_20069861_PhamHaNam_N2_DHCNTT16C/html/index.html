@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTACT</a>
+                    <ul class="submenu">
+                        <li><a href="">PHONE</a></li>
+                        <li><a href="">INTERNET</a></li>
+                        <li><a href="">TIVI</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+            <span>
+                <form action="dangki.php">
+                    <label for="lbEmail" class="emailLabel">SEND EMAIL</label>
+                    <input type="email" class="emailInput" required placeholder="nhap email" >
+                    <input type="submit" class="emailSubmit" value="go">
+                </form>
+            </span>
+        </nav>
+        <header>
+            <h1>TOI YEU VIET NAM</h1>
+        </header>
+        <div class="content">
+            <aside>
+                <article>
+                    <h5>
+                        HOAT DONG 1
+                    </h5>
+                    <img src="../img/aside1.png" alt="" width="100%" height="110">
+                </article>
+                <article>
+                    <h5>
+                        HOAT DONG 2
+                    </h5>
+                    <img src="../img/aside2.png" alt="" width="100%" height="110">
+                </article>
+                <article>
+                    <h5>
+                        HOAT DONG 3
+                    </h5>
+                    <img src="../img/aside3.png" alt="" width="100%" height="110">
+                </article>
+            </aside>
+            <section>
+                <div class="section-item">
+                    <form action="">
+                        <fieldset>
+                            <legend>thong tin cua ban</legend>
+                            <br>
+                            <label for="" class="emailLabel">nhap ho ten</label>
+                            <input type="text" class="emailInput" required placeholder="nhap ho ten" >
+                            
+                            <br>
+                            <br>
+                            <label for="" class="emailLabel">nhap email</label>
+                            <input type="email" class="emailInput" required placeholder="nhap email" >
+                            <br>
+                            <br>
+                            <label for="" class="emailLabel">nhap ngay sinh</label>
+                            <input type="date" class="emailInput" required placeholder="dd/mm/yyyy" >
+                            <br>
+                            <br>
+                            <label for="" class="emailLabel">nhap gioi tinh</label>
+                            <input type="radio" name="sex" value="nam">
+                            <label for="nam">nam</label>
+                            <input type="radio" name="sex" value="nu">
+                            <label for="nu">nu</label>
+                            
+                            <br>
+                            <br>
+                            <input type="submit" class="emailSubmit" value="go">
+                        </fieldset>
+
+                    </form>
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
